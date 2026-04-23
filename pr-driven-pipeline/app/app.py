@@ -1,9 +1,6 @@
-# app2.py  (v1.1.0 - known bad. Fixed docs, but bug introduced)
+# app1.py  (v1.0.0 - known good, but typo in docstring)
 
 def add(a: int, b: int) -> int:
-    """Return the sum of a and b.
-
-    BUG in v1.1.0: off-by-one.
-    """
-    return a + b + 1
-# 1776972721
+    """Retrun the sum of a and b."""
+    return a + b
+# 1776972766
